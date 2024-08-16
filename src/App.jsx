@@ -41,6 +41,7 @@ export default function App() {
           <Route element={<AppLayout />}>
             <Route index element={<Home replace to="home" />} />
             <Route path="home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="products" element={<Products />} />
             <Route path="products/:id" element={<SelectedProducts />} />
             <Route path="categories" element={<Categories />} />
